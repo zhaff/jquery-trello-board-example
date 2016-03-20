@@ -1,0 +1,69 @@
+
+
+/*.list-group-item
+{
+    margin-bottom: 5px;
+}
+*/
+
+body {
+    overflow-x: scroll; 
+    width: 1500px
+}
+
+#sortable1, #sortable2, #sortable3 { 
+    list-style-type: none; 
+    margin: 0; 
+    float: left; 
+    margin-right: 10px; 
+    background: #eee; 
+    padding: 5px; 
+}
+
+#sortable1 li, #sortable2 li, #sortable3 li { 
+    margin: 5px; 
+    padding: 5px; 
+    font-size: 1.2em; 
+    cursor: move;
+}
+
+
+div.box {
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #eee;
+}
+
+div.header {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 5px 5px;
+    cursor: move;
+}
+
+.box ul {
+    width: 290px;
+}
+
+div.orders {
+
+}
+
+div.column {
+    width: 350px;
+    float: left;
+    height: auto;
+    margin: 2px;
+    min-height: 50px;
+    border: 1px #d3d3d3 dashed;
+}
+
+label, input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+.ui-dialog .ui-state-error { padding: .3em; }
+
+.btnToolbar {
+    margin-bottom: 10px;
+}
